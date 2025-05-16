@@ -24,6 +24,7 @@ const navItems: NavItems = [
   { title: 'Pricing', href: '/pricing' },
   { title: 'Contact', href: '/contact' },
   { title: 'Sign up', href: '/sign-up', outlined: true },
+  { title: 'Sign up', href: '/sign-up', outlined: true }
 ];
 
 const TinaCMS = dynamic(() => import('tinacms'), { ssr: false });
